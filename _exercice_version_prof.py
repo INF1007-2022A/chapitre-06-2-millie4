@@ -59,7 +59,7 @@ def main() -> None:
     colors = ["blue", "red", "green", "yellow", "black", "white"]
     print(f"La valeur hex associée aux couleurs est: {color_name_to_hex(colors)}")
 
-    print(f"La liste des 10000 entiers est: {create_list()}")
+    #print(f"La liste des 10000 entiers est: {create_list()}")
 
     model_dict = {"LR": [(90, 92), (96, 100), (20, 25), (21, -2), (3, -20)],
                   "DNN": [(100, 101), (50, 50), (1,2), (-10, -12), (-1, 7)],
